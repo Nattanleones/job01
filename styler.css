@@ -1,0 +1,170 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: url("imagens/fundo.JPEG") no-repeat center center fixed;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bordatransparent {
+    margin: 10% 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7%;
+    border-radius: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0  , 0, 0.393);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(51, 51, 51, 0.466);
+    border: rgba(253, 251, 251, 0.294) solid 1px;
+}
+h1.titulo1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10%;
+}
+#subtitulo {
+    color:rgb(255, 255, 255)}
+.titulo2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20%;
+}
+ul li {
+    list-style-type: square;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-style: bold;
+    list-style-type: circle;
+}
+ul {
+    padding: 7%;
+}
+.imagem1 {
+    width: 80%;
+    border-radius: 3%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.368);
+    min-width: 100%;
+    margin: 0 auto;
+}
+.paragrafo {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 7%;
+}
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    min-height: 1.5rem;
+}
+table {
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(25px);
+    box-shadow: 0 0 10px rgba(51, 51, 51, 0.466);
+    border: 2px 2px 4px 4px solid rgb(255, 255, 255);
+    font-size: center;
+    border: 2px 2px 4px 4px solid rgba(255, 255, 255, 0.158);
+    width: 100%;
+    padding: 10%;
+}
+.tabe td {
+    text-align: center;
+    padding: 0;
+    height: 5%;
+    color: rgb(255, 255, 255);
+    border: rgba(255, 255, 255, 0.287) 1px solid;
+}
+    
+.tabe th {
+    font-weight: bold;
+    font-size: 1,5rem;
+    padding: 8%;
+    text-shadow: 0 0 10px rgba(6, 6, 6, 0.559);
+    border: rgba(255, 255, 255, 0.381) 1px solid;
+    width: 50%;
+    color: rgb(255, 255, 255);
+}
+.imagemtabela {
+    width: 0 auto;
+    height: 0 auto;
+    border-radius: 0;
+    display: block;
+    margin: 0;
+    padding: 20%;
+
+}
+.titulo1 {
+    padding: 10%;
+    border-radius: 3%;
+    text-shadow: 2px 2px 4px rgba(0, 0  , 0, 0.393);
+    margin-bottom: 10% rgb(255, 255, 255);
+    
+}
+h3 {
+    padding: 10%;
+    border-radius: 3%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.393);
+    margin-bottom: 5% rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+.titulo2 {
+    padding: 20px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.393);
+    margin-bottom: 20px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding:0;
+    border-radius: 8%;
+    font-size: center;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    font-size: 1rem;
+}
+button {
+    box-shadow: 0 0 10px rgba(43, 43, 43, 0.323);
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.16);
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    padding: 1% 2%;
+    border-color: rgba(255, 255, 255, 0.291);
+    align-items: center;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+#mensagem {
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.121);
+    box-shadow: 0 0 10px rgba(25, 25, 25, 0.472);
+    margin: 10px 25%;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: rgba(253, 251, 251, 0.333) 1px solid;
+    padding: 3% 4%;
+    backdrop-filter: blur(15px);
+    z-index: 1001;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+}
+.espacolink {
+    margin: 10% 0 0 0;
+}
